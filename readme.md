@@ -35,4 +35,18 @@ git add .
 git commit -m "init" 
 git push --set-upstream git@gitlab.com:gaevivan/reponame.git master
 
+Папку с готовым проектом добавить как новый репозиторий в гитлаб
 
+git init 
+touch README.md 
+git add . 
+git commit -m "init" 
+git push --set-upstream git@gitlab.com:gaevivan/reponame.git master
+
+Установка choco на windows через powershell под админом
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+Соединение с github через https
+git remote set-url origin https://github.com/gaevivan/reponame
