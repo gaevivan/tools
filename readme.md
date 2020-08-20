@@ -49,4 +49,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
   iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 Соединение с github через https
+
 git remote set-url origin https://github.com/gaevivan/reponame
